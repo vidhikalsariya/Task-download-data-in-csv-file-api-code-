@@ -1,7 +1,7 @@
 # Task-download-data-in-csv-file-api-code-
 This project is a Flask-based REST API that downloads stock market OHLCV data using yfinance, cleans it, resamples it into any desired timeframe (1m → 5m, 1h → 1d, etc.), and returns the output in clean JSON format.
 
-⭐ Features
+# Features
 
 ✔ Download stock OHLCV data using YFinance
 Supports NSE, BSE, NASDAQ, NYSE symbols
@@ -26,8 +26,7 @@ Datetime is converted to:
 "date": "2025-01-01",
 "time": "09:30:00"
 
-How the Code Works (Step-by-Step
-)
+# How the Code Works (Step-by-Step)
 ✅ STEP 1 — Flask App Created
 app = Flask(__name__)
 You start a Flask server so users can send POST/GET requests.
